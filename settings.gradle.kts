@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
         google()
-        mavenCentral()
         jcenter()
+        mavenCentral()
         gradlePluginPortal()
     }
 }
@@ -15,5 +15,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Android UiExperiments"
+rootProject.name = "Android UI Experiments"
 include(":app")
+ 
