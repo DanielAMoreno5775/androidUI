@@ -15,8 +15,67 @@
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/flexboxLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:justifyContent="space_evenly"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125">
+
+        <ImageButton
+            android:id="@+id/computerButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:src="@drawable/baseline_computer_24"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <ImageButton
+            android:id="@+id/tankButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:src="@drawable/baseline_directions_car_24"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <ImageButton
+            android:id="@+id/castleButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:src="@drawable/baseline_castle_24"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="324dp" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/poitou_walls"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flexboxLayout"
+        app:layout_constraintVertical_bias="0.205"
+        tools:layout_editor_absoluteX="8dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -51,6 +51,8 @@ class HomeFragment : Fragment() {
         sliderView = view.findViewById(R.id.imageCarouselId)
         imageUrl = ArrayList()
 
+        //to simplify the carousel code, the images are being hosted online and being accessed via their URL
+        //The second and third images are drawings made by my sister and used with her permission. Please speak with her if you like them.
         imageUrl =
             (imageUrl + "https://static.wixstatic.com/media/650d4c_f977c92224bb4afea765aa6c3237aa5c~mv2.png") as ArrayList<String>
         imageUrl =
