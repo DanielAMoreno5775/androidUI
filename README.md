@@ -1,4 +1,4 @@
-# **Android UI Experiments**
+# Android UI Experiments
 ------------------------
 ### Compatible Android Versions
 This is a Kotlin-based app for the Android OS 4.4 (API Level 19 KitKat) up to Android 14 (API Level 34 Upside Down Cake).
