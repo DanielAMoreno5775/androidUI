@@ -21,7 +21,9 @@ Dashboard fragment after clicking the yellow button in light mode:
 ![dashboard-fantasy city-lightmode](screenshots/Light%20Mode/Dashboard-YellowButton-LightMode.png)
 
 Settings fragment in light mode:
+
 ![settings-lightmode](screenshots/Light%20Mode/Settings-LightMode.png)
+
 #
 ### Dark Mode Screenshots
 Home fragment showing the scifi-style tank in the carousel in dark mode:
@@ -31,4 +33,5 @@ Dashboard fragment after clicking the red button in dark mode:
 ![dashboard-red binary circuit board-darkmode](screenshots/Dark%20Mode/Dashboard-RedButton-DarkMode.png)
 
 Settings fragment in dark mode:
+
 ![settings-darkmode](screenshots/Dark%20Mode/Settings-DarkMode.png)
