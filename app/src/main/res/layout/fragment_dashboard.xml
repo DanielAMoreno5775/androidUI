@@ -37,47 +37,43 @@
         <ImageButton
             android:id="@+id/computerButton"
             style="?android:attr/borderlessButtonStyle"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
             android:layout_weight="1"
             android:background="?attr/colorAccentCustom3"
             android:src="@drawable/baseline_computer_24"
-            tools:layout_editor_absoluteY="324dp" />
+            tools:layout_editor_absoluteY="324dp"
+            android:contentDescription="Red button with a computer icon"
+            />
 
         <ImageButton
             android:id="@+id/tankButton"
             style="?android:attr/borderlessButtonStyle"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
             android:layout_weight="1"
+            android:scaleX="1.2"
+            android:scaleY="1.4"
             android:background="?attr/colorAccentCustom1"
-            android:src="@drawable/baseline_directions_car_24"
+            android:src="@drawable/baseline_tank_24"
             tools:layout_editor_absoluteX="137dp"
-            tools:layout_editor_absoluteY="324dp" />
+            tools:layout_editor_absoluteY="324dp"
+            android:contentDescription="Blue button with a tank icon"
+            />
 
         <ImageButton
             android:id="@+id/castleButton"
             style="?android:attr/borderlessButtonStyle"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
             android:layout_weight="1"
             android:background="?attr/colorAccentCustom2"
             android:src="@drawable/baseline_castle_24"
             tools:layout_editor_absoluteX="274dp"
-            tools:layout_editor_absoluteY="324dp" />
+            tools:layout_editor_absoluteY="324dp"
+            android:contentDescription="Yellow button with a castle icon"
+            />
     </com.google.android.flexbox.FlexboxLayout>
-
-    <!--<ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/poitou_walls"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/flexboxLayout"
-        app:layout_constraintVertical_bias="0.205"
-        tools:layout_editor_absoluteX="8dp" />
-     -->
 
     <ImageSwitcher
         android:id="@+id/imageView"
