@@ -2,25 +2,20 @@
     <!-- Base application theme. -->
     <style name="Theme.AndroidUIExperiments" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/skobeloff</item>   <!-- Selected navbar button & status bar -->
+        <item name="colorPrimary">@color/deep_sky_blue</item>
         <item name="colorPrimaryVariant">@color/dark_navy_blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/khaki</item>    <!-- Switch button -->
-        <item name="colorSecondaryVariant">@color/golden_poppy</item>
+        <item name="colorSecondary">@color/khaki</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Tertiary brand color. -->
-        <item name="colorTertiary">@color/error_red</item>
-        <item name="colorOnTertiary">@color/black</item>
+        <!-- Colors for specific elements -->
         <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimaryVariant</item>
         <item name="android:navigationBarColor" tools:targetApi="21">@color/black</item>
-        <item name="android:colorError" tools:targetApi="26">@color/error_red</item>
         <item name="android:colorBackground" tools:targetApi="19">@color/graphite_black</item>
-        <item name="android:colorAccent" tools:targetApi="21">?attr/colorSecondaryVariant</item>
-        <item name="android:colorPressedHighlight" tools:targetApi="21">?attr/colorSecondaryVariant</item>
-        <item name="android:state_selected" tools:targetApi="21">?attr/colorSecondaryVariant</item>
         <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationViewDark</item>
-        <!-- Customize your theme here. -->
+        <item name="colorAccentCustom1">@color/plump_purple</item>
+        <item name="colorAccentCustom2">@color/golden_poppy</item>
+        <item name="colorAccentCustom3">@color/soft_error_red</item>
     </style>
 
     <style name="Widget.App.BottomNavigationViewDark" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
@@ -29,7 +24,7 @@
 
     <style name="ThemeOverlay.App.BottomNavigationViewDark" parent="">
         <item name="colorOnPrimary">@color/white</item>
-        <item name="android:colorBackground" tools:targetApi="19">#03A9F4</item>
+        <item name="android:colorBackground" tools:targetApi="19">?attr/colorPrimary</item>
     </style>
 
     <!-- Base application theme. -->

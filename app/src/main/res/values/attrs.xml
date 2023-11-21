@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Other values-->
+    <attr name="colorAccentCustom1" format="reference" />
+    <attr name="colorAccentCustom2" format="reference" />
+    <attr name="colorAccentCustom3" format="reference" />
+
+</resources>

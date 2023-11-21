@@ -40,7 +40,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="?attr/colorAccentCustom3"
             android:src="@drawable/baseline_computer_24"
             tools:layout_editor_absoluteY="324dp" />
 
@@ -50,7 +50,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="?attr/colorAccentCustom1"
             android:src="@drawable/baseline_directions_car_24"
             tools:layout_editor_absoluteX="137dp"
             tools:layout_editor_absoluteY="324dp" />
@@ -61,7 +61,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="?attr/colorAccentCustom2"
             android:src="@drawable/baseline_castle_24"
             tools:layout_editor_absoluteX="274dp"
             tools:layout_editor_absoluteY="324dp" />
