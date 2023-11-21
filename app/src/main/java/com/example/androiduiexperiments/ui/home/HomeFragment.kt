@@ -56,9 +56,9 @@ class HomeFragment : Fragment() {
         imageUrl =
             (imageUrl + "https://static.wixstatic.com/media/650d4c_f977c92224bb4afea765aa6c3237aa5c~mv2.png") as ArrayList<String>
         imageUrl =
-            (imageUrl + "https://static.wixstatic.com/media/650d4c_c9cf32343eed448ebb85c5674b95e04b~mv2.png") as ArrayList<String>
-        imageUrl =
             (imageUrl + "https://static.wixstatic.com/media/650d4c_8d906744db9d406ba910138f983cc89c~mv2.png") as ArrayList<String>
+        imageUrl =
+            (imageUrl + "https://static.wixstatic.com/media/650d4c_c9cf32343eed448ebb85c5674b95e04b~mv2.png") as ArrayList<String>
 
         sliderAdapter = SliderAdapter( imageUrl)
 
