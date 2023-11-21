@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.AndroidUIExperiments" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/plump_purple</item>
+        <item name="colorPrimary">#03A9F4</item>
         <item name="colorPrimaryVariant">@color/dark_navy_blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -14,8 +14,19 @@
         <item name="colorOnTertiary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimaryVariant</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationViewLight</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Widget.App.BottomNavigationViewLight" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationViewLight</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationViewLight" parent="">
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorBackground" tools:targetApi="19">#03A9F4</item>
+    </style>
+
     <!-- Base application theme. -->
     <style name="Base.Theme.AndroidUIExperiments" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
