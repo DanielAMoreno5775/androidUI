@@ -10,19 +10,25 @@ There are 3 distinct images being used in this project. The first image resemble
 ### Light Mode Screenshots
 Home fragment showing the red binary circuit board in the carousel in light mode:
 ![home-lightmode](screenshots/Light%20Mode/Home-LightMode.png)
+
 Dashboard fragment after clicking the red button in light mode:
 ![dashboard-red binary circuit board-lightmode](screenshots/Light%20Mode/Dashboard-RedButton-LightMode.png)
+
 Dashboard fragment after clicking the blue button in light mode:
 ![dashboard-scifi style tank-lightmode](screenshots/Light%20Mode/Dashboard-BlueButton-LightMode.png)
+
 Dashboard fragment after clicking the yellow button in light mode:
 ![dashboard-fantasy city-lightmode](screenshots/Light%20Mode/Dashboard-YellowButton-LightMode.png)
+
 Settings fragment in light mode:
 ![settings-lightmode](screenshots/Light%20Mode/Settings-LightMode.png)
 #
 ### Dark Mode Screenshots
 Home fragment showing the scifi-style tank in the carousel in dark mode:
 ![home-darkmode](screenshots/Dark%20Mode/Home-DarkMode.png)
+
 Dashboard fragment after clicking the red button in dark mode:
 ![dashboard-red binary circuit board-darkmode](screenshots/Dark%20Mode/Dashboard-RedButton-DarkMode.png)
+
 Settings fragment in dark mode:
 ![settings-darkmode](screenshots/Dark%20Mode/Settings-DarkMode.png)
