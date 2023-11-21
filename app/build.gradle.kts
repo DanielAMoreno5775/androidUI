@@ -37,6 +37,9 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    packagingOptions{
+        pickFirst("androidsupportmultidexversion.txt")
+    }
 }
 
 dependencies {

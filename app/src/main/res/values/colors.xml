@@ -5,6 +5,16 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="plump_purple">#5053b6</color>
+    <color name="dark_navy_blue">#06006c</color>
+    <color name="skobeloff">#006874</color>
+    <color name="graphite_black">#001f24</color>
+    <color name="khaki">#ffdf91</color>
+    <color name="golden_poppy">#ffc900</color>
+    <color name="error_red">#ba1a1a</color>
+    <color name="lavender">#e1e0ff</color>
 </resources>
