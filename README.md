@@ -1,6 +1,6 @@
 # Android UI Experiments
 ### Compatible Android Versions
-This is a Kotlin-based app for the Android OS 4.4 (API Level 19 KitKat) up to Android 14 (API Level 34 Upside Down Cake).
+This is a Kotlin-based app for the Android OS 4.4 (API Level 19 KitKat) up to Android 14 (API Level 34 Upside Down Cake). All screenshots depict the app running on the Pixel 3a API34 Extension Level 7, x86_64 emulator.
 #
 ### Brief Description
 The app contains 3 fragments which represent the 3 primary pages: Home, Dashboard, and Settings. The Home fragment contains an auto-carousel which will display the 3 images used elsewhere in the app. A gesture can also be used to advance the carousel. The Dashboard fragment has 3 buttons with individual colors and icons. When a button is clicked, the image view on the Dashboard fragment transitions from its current image to the image associated with the clicked button. The transition utilizes the built-in slide_in_left and fade_out animations. The Settings fragment contains a switch button. Click the switch to toggle between light and dark mode color schemes which are defined in the two themes.xml files.
